@@ -1,0 +1,10 @@
+JS or JavaScript started in 1995 , intially it was named as LiveScript, but later changed to javascript to attain attention from java developers.
+JS is called the language of web.
+JS uses JIT(just in time) Compiler and JS engine (every browser have their own JS engines like chroome -v8, edge - chhakra and firefox - spidermonkey) interpret the JavaScript.
+Any error in JS will make the program halt execution .
+JS is case Sensitive.
+JS is snchronous(line by line), single-threaded language(one )
+
+
+
+How to 
