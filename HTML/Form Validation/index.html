@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>A Sample Form for Validation</h1>
+    <form action="main.py">
+        <fieldset>
+            <legend>My Form</legend>
+       <p>All * fields are required</p>
+        <label for="Username">Name*:</label>
+        <input type="text" id="Username" name="Username" required>
+        <div><br>
+        </div>
+        <label for="email">Email:</label>
+            <input type="email" name="email" id="email" pattern="[A-Za-z0-9+-@]+@[A-Za-z]+\.[a-z]{2}$">
+            <div><br></div>
+        <label for="Password">Password:</label>
+        <input type="Password" id="Password" name="Password" min="6" max="12" required>
+        <div><br></div>
+        <label for="male">Male:</label>
+        <input type="Radio" id="male" name="gender" value="male">
+        <label for="female">Female:</label>
+        <input type="Radio" id="female" name="gender" value="female">
+        <div><br></div>
+        <label for="Birthday">Birthday:</label>
+        <input type="date" id="Birthday" name="Birthday">
+                <div><br></div>
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="checkbox" id="subscribe" name="newsletter" value="yes">
+        <div><br></div>
+        <label for="comments">comments</label>
+        <textarea id="comments" name="comments" rows="5" cols="50">enter your comments here</textarea>
+        <div><br></div>
+        <label for="Country">Country</label>
+        <select id="Country" name="Country">
+            <option value="usa">United Sates</option>
+            <option value="uk">United Kingdom</option>
+            <option value="india">India</option>
+            <option value="canada">Canada</option>
+            <option value="singapore">Singapore</option>
+        </select>
+        <div><br></div>
+        <label for="file">Upload a file:</label>
+        <input type="file" id="file" name="Upload file">
+        <div><br></div>
+        <button type="submit">
+            submit
+        </button>
+        <input type="Reset" value="Reset">
+        <div><br></div>
+    </fieldset>
+        
+          </form>
+</body>
+</html>
