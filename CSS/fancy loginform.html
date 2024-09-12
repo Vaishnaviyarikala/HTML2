@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Login Form</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-image:url(lake.jpg) ;
+            background-size: cover;
+        }
+        fieldset {
+        background-image: url(water.gif);
+            border: 2px solid blue;
+            width:300px;
+            text-align: center;
+            border-radius: 15px;
+        }
+        h2{
+            color:white;
+        }
+        input[type='text'],input[type='Password']{
+            height:30px;
+            border: 2px solid blue;
+            margin:5px;
+            font-size: 15px;
+            border-radius: 15px;
+            text-align: center;
+
+        }
+        input[type='text']:focus,input[type='Password']:focus{
+            background-color: lightblue;
+        }
+        button[type='Submit']{
+            background-color: blue;
+            color: white;
+            font-size: 18px;
+            padding: 8px 30px;
+            border-radius: 15px;
+        }
+        button[type='Submit']:hover{
+            opacity: 0.8;
+            cursor: pointer;
+            box-shadow: 0 015px lightblue;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="main.py">
+    <fieldset>
+        <h2>Login Here</h2>
+        
+        <input type="text" placeholder="Username">
+        
+        <input type="Password" placeholder="Password" >
+        <div><br></div>
+        <button type="Submit">Login</button>
+        </fieldset>
+        </form>
+</body>
+</html>
