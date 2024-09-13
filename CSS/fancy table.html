@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        table,th,td{
+            text-align: center;
+            padding: 12px;
+            font-size: 20px;
+            border-radius: 50px;
+        }
+        table{
+            width:100%;
+        }
+        th{
+            background-color: #030f12;
+            color:white;
+        }
+        tr:nth-child(even){
+            background-color: #15667a;
+            color:white;
+        }
+        tr:nth-child(odd){
+            background-color: #21a0c0;
+            color:white;
+        }
+        
+        tr:hover{
+            background-color: #62cae4;
+            color:black;
+            cursor: pointer;
+        }
+        td:hover{
+            background-color: #62cae4;
+            color:black;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Emp Name</th>
+            <th>Designation</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Software Engineer</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>Janu</td>
+            <td>Software Engineer</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>Marry</td>
+            <td>Software Engineer</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>Software Engineer</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>Joseph</td>
+            <td>Software Engineer</td>
+            <td>Microsoft</td>
+        </tr>
+        <tr>
+            <td>Danny</td>
+            <td>Software Engineer</td>
+            <td>Google</td>
+        </tr>
+
+    </table>
+</body>
+</html>
